@@ -14,5 +14,5 @@ app.use(express.json());
 app.use(routes);
 app.use(errorHandler);
 
-app.listen(process.env.PORT || 80);
-console.log(`Servindo vegas-trader-api na porta: ${process.env.PORT || 80}`);
+app.listen(process.env.PORT || 3333);
+console.log(`Servindo vegas-trader-api na porta: ${process.env.PORT || 3333}`);
